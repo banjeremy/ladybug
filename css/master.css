@@ -1,0 +1,16 @@
+body {
+  background-color: #178ad4;
+}
+
+#bug {
+  width: 262px;
+  height: 202px;
+  margin: 2% auto;
+  background: url('../images/bug-sprite.png');
+  animation: play 0.6s steps(10) infinite;
+}
+
+@keyframes play {
+  0% { background-position: -2620px; }
+  100% { background-position: 0px; }
+}
